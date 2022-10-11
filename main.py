@@ -26,7 +26,7 @@ def listar():
         precio: {}
       """.format(user,registros[user][0],registros[user][1],registros[user][2]))
 
-def modificaciones():
+
 
 
 registros={}
@@ -46,7 +46,7 @@ while True:
         elif option == 2:
             cod_articulo = int(input("Ingrese el codigo del articulo"))
             delete(cod_articulo)
-        elif option==3:
+        
 
 
         elif option==5:
